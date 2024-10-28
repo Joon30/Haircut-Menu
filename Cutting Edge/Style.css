@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1{
+	margin: 40px 0;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0 7px 10px #9E9495;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    /* [disabled]text-indent: 100px; */
+    /* [disabled]word-spacing: 10px; */
+    letter-spacing: 10px;
+    font-weight: 500;
+}
+
+nav{
+    text-align: center;
+    margin: 0 25%;
+    font-size: large;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    border-top: medium solid #000000;
+    border-bottom: medium solid #000000;
+}
+
+footer {	background-color: black;
+	color: white;
+	margin-bottom: 0;
+	text-align: center;
+}
+menu {   	list-style: none;
+    display: flex;
+    justify-content: space-around;
+    border-top: medium solid #000000;
+    border-bottom: medium solid #000000;
+}
+a {
+    font-weight: 600;
+    padding: 10px;
+    color: #000000;
+}
